@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    pointer-events: none;
+    user-select: none;
+    object-fit: cover;
+}
+.skullcandy-navbar{
+    background-color: #000000;
+    height: 3.2rem;
+}
+.product-info{
+    background-color: rgb(16, 16, 16);
+    padding: 5.5rem .3rem 0.5rem .3rem;
+}
+.product-info-title{
+    line-height: 1.1rem;
+    font-size: 1.3em;
+}
+.product-info-p{
+    font-size: .85em;
+}
+.product-more-info{
+    position: relative;
+    background: rgb(16, 16, 16);
+}
+.btn-add{
+    all: unset;
+    cursor: pointer;
+    height: 3rem;
+    letter-spacing: .07rem;
+    font-size: .9rem;
+    text-transform: uppercase;
+    padding: 0 2.85714rem;
+    text-align: center;
+    width: 100%;
+    background-color: #ededed;
+}
+.btn-add:hover{
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: #aeaeae;
+    padding: 0 2.85714rem;
+}
+.product-quote-text{
+    font-weight: 900;
+    font-size: 1.5em;
+    line-height: 1.6rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+.product-quote-author{
+    font-size: 1.2em;
+}
+.product-review{
+    font-size: 1rem;
+}
+.product-characteristics{
+    font-size: .8em;
+    font-weight: 600;
+}
+.product-characteristics-icon{
+    width: 3.5rem;
+}
+
+@media (min-width: 25rem) {
+    .product-info-title{
+        line-height: 1.7rem;
+        font-size: 2em;
+    }
+    .product-quote-text{
+        font-size: 1.7em;
+        line-height: 1.7rem;
+    }
+    .product-info-p{
+        font-size: 1em;
+    }
+    .product-info-price{
+        font-size: 1.3em;
+    }
+    .product-characteristics{
+        font-size: .9em;
+    }
+}
+@media (min-width: 48rem){
+    .product-info{
+        background-color: rgb(16, 16, 16);
+        margin: 10% 0 0 3rem;
+        padding: 3.7rem .3rem .5rem 0;
+        width: 21.875rem;
+        position: relative;
+        z-index: 2;
+    }
+    .product-more-info{
+        position: relative;
+        z-index: 2;
+        width: 21rem;
+        margin-left: 3rem;
+    }
+    .product-info-title{
+        line-height: 2.2rem;
+        font-size: 2.7em;
+    }
+    .product-info-p{
+        margin-top: 1rem;
+        font-size: 1.5em;
+    }
+    .product-info-price{
+        font-size: 1.5em;
+    }
+    .container-carousel-products{
+        position: fixed;
+    }
+    .product-characteristics{
+        font-size: 1em;
+    }
+}
+@media (min-width: 1200px){
+    .product-info-title{
+        line-height: 2.9rem;
+        font-size: 3.5em;
+    }
+    .product-info{
+        background-color: rgb(16, 16, 16);
+        width: 25rem;
+        margin-top: 15%;
+        margin-left: 3rem;
+    }
+    .product-more-info{
+        width: 25rem;
+        margin-left: 3rem; 
+    }
+    .product-characteristics{
+        font-size: 1.1em;
+    }
+}
