@@ -62,7 +62,25 @@ img{
     font-weight: 600;
 }
 .product-characteristics-icon{
-    width: 3.5rem;
+    width: 3rem;
+}
+.second-section-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1.5rem;
+    font-size: .95rem;
+    line-height: 1.1rem;
+    letter-spacing: -.03rem;
+}
+.second-section-title{
+    width: 85%;
+    max-width: 30rem;
+    font-size: 9vw;
+    line-height: 8.5vw;
+    letter-spacing: -.3vw;
+    padding-bottom: .5rem;
 }
 
 @media (min-width: 25rem) {
@@ -82,6 +100,16 @@ img{
     }
     .product-characteristics{
         font-size: .9em;
+    }
+    .second-section-info{
+        padding: 3rem 1.8rem;
+        font-size: 1.2em;
+        line-height: 1.45rem;
+        letter-spacing: -.05rem;
+    }
+    .second-section-title{
+        width: 80%;
+        padding-bottom: .7rem;
     }
 }
 @media (min-width: 48rem){
@@ -116,6 +144,21 @@ img{
     .product-characteristics{
         font-size: 1em;
     }
+    .second-section-info{
+        height: 100%;
+        width: 80%;
+        max-width: 500px;
+        padding: 0 4rem;
+        font-size: 1.1em;
+        line-height: 1.25rem;
+        letter-spacing: -.05rem;
+    }
+    .second-section-title{
+        width: 100%;
+        font-size: 5vw;
+        line-height: 4vw;
+        padding-bottom: .7rem;
+    }
 }
 @media (min-width: 1200px){
     .product-info-title{
@@ -134,5 +177,21 @@ img{
     }
     .product-characteristics{
         font-size: 1.1em;
+    }
+    .second-section-info{
+        max-width: 41.5rem;
+        padding-left: 2.5rem ;
+        font-size: 1.3em;
+        line-height: 1.45rem;
+        letter-spacing: -.05rem;
+    }
+    .second-section-title{
+        font-size: 3em;
+        line-height: 3.7rem;
+        padding-bottom: 1.5rem;
+        letter-spacing: -.02rem;
+    }
+    .second-section-info > p{
+        max-width: 30rem;
     }
 }
